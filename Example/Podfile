@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'RDDoneKeyboard_Example' do
+  pod 'RDDoneKeyboard', :path => '../'
+
+  target 'RDDoneKeyboard_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
